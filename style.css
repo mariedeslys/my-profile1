@@ -1,0 +1,72 @@
+/* Your CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCEFF3; /* Light pink */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #FFCCCC; /* Light pink */
+    color: #333; /* Dark gray */
+    padding: 20px 0;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #FFCCCC; /* Light pink */
+}
+
+.section {
+    background-color: #fff; /* White */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+/* Horizontal list for social links */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between social links */
+}
+
+footer ul li:last-child {
+    margin-right: 0; /* Remove margin from the last social link */
+}
